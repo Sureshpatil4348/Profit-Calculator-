@@ -1,0 +1,112 @@
+{
+  "strategies": {
+    "Falcon": {
+      "description": "A balanced strategy with moderate risk and steady returns",
+      "pairs": {
+        "GBPUSD V1": {
+          "avg_monthly_return": 2.6,
+          "allocation_ratio": 0.2
+        },
+        "GBPUSD V2": {
+          "avg_monthly_return": 3.5,
+          "allocation_ratio": 0.2
+        },
+        "GBPUSD V3": {
+          "avg_monthly_return": 4.0,
+          "allocation_ratio": 0.2
+        },
+        "GBPUSD V4": {
+          "avg_monthly_return": 3.3,
+          "allocation_ratio": 0.2
+        },
+        "GBPUSD V5": {
+          "avg_monthly_return": 3.2,
+          "allocation_ratio": 0.2
+        }
+      }
+    },
+    "BS Buy Sell": {
+      "description": "A high-frequency trading strategy with higher potential returns but increased volatility",
+      "pairs": {
+        "EURUSD": {
+          "avg_monthly_return": 2.0,
+          "allocation_ratio": 0.33
+        },
+        "NZDCAD": {
+          "avg_monthly_return": 1.0,
+          "allocation_ratio": 0.33
+        },
+        "USDCAD": {
+          "avg_monthly_return": 1.1,
+          "allocation_ratio": 0.34
+        }
+      }
+    },
+    "Max Distance + RSI": {
+      "description": "A technical analysis-based strategy using RSI indicators and distance metrics",
+      "pairs": {
+        "AUDUSD": {
+          "avg_monthly_return": 1.4,
+          "allocation_ratio": 0.1
+        },
+        "EURGBP V1": {
+          "avg_monthly_return": 1.0,
+          "allocation_ratio": 0.1
+        },
+        "EURGBP V2": {
+          "avg_monthly_return": 1.0,
+          "allocation_ratio": 0.1
+        },
+        "EURUSD V1": {
+          "avg_monthly_return": 1.8,
+          "allocation_ratio": 0.1
+        },
+        "EURUSD V2": {
+          "avg_monthly_return": 4.2,
+          "allocation_ratio": 0.1
+        },
+        "NZDCAD": {
+          "avg_monthly_return": 8.5,
+          "allocation_ratio": 0.1
+        },
+        "USDCAD": {
+          "avg_monthly_return": 1.2,
+          "allocation_ratio": 0.1
+        },
+        "USDCHF": {
+          "avg_monthly_return": 2.0,
+          "allocation_ratio": 0.1
+        },
+        "USDJPY V1": {
+          "avg_monthly_return": 1.3,
+          "allocation_ratio": 0.1
+        },
+        "USDJPY V2": {
+          "avg_monthly_return": 1.3,
+          "allocation_ratio": 0.1
+        }
+      }
+    },
+    "UBS WITH ATR": {
+      "description": "A conservative strategy with lower risk using Average True Range for risk management",
+      "pairs": {
+        "AUDUSD": {
+          "avg_monthly_return": 3.9,
+          "allocation_ratio": 0.25
+        },
+        "EURUSD": {
+          "avg_monthly_return": 11.0,
+          "allocation_ratio": 0.25
+        },
+        "NZDCAD": {
+          "avg_monthly_return": 7.5,
+          "allocation_ratio": 0.25
+        },
+        "USDCAD": {
+          "avg_monthly_return": 3.9,
+          "allocation_ratio": 0.25
+        }
+      }
+    }
+  }
+} 
